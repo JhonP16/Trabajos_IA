@@ -64,7 +64,6 @@ Complete la siguiente tabla y justifique brevemente cada respuesta.
 ## 5. ¿Qué tipo de programa de agente creen que es?
 
 Agente basado en Objetivos
-
 Creo que es un agente basado en objetivos ya que este no solo recibe la acción inicial o un estímulo, sino que también tiene un objetivo que debe cumplir y ese objetivo guía al modelo en sus decisiones. No responde siempre de la misma manera con la misma imagen, porque por ejemplo si yo le paso otro objetivo a encontrar, me cambiará la respuesta.
 Por Ejemplo, le paso una imagen con árboles y bicicletas. Si le pido que encuentre bicicletas, me dará una respuesta, si le pido árboles, me dará otra distinta.
 ------------------------------------------------------------------------
@@ -88,6 +87,7 @@ R// LocateAnything. Como ya se mostró antes, este Space cumple con estas caract
 3.  **Parcialmente observable, estocástico y secuencial.**
 
 R// chatbot-using-gemini
+https://huggingface.co/spaces/moazzamdev/Chatbot-using-gemini
 
 Parcialmente observable: el agente solo conoce los mensajes escritos por el usuario, no toda la información del mundo.
 
