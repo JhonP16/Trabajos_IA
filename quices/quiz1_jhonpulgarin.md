@@ -65,21 +65,8 @@ Complete la siguiente tabla y justifique brevemente cada respuesta.
 
 Agente basado en Objetivos
 
-
 Creo que es un agente basado en objetivos ya que este no solo recibe la acción inicial o un estímulo, sino que también tiene un objetivo que debe cumplir y ese objetivo guía al modelo en sus decisiones. No responde siempre de la misma manera con la misma imagen, porque por ejemplo si yo le paso otro objetivo a encontrar, me cambiará la respuesta.
 Por Ejemplo, le paso una imagen con árboles y bicicletas. Si le pido que encuentre bicicletas, me dará una respuesta, si le pido árboles, me dará otra distinta.
-------------------------------------------------------------------------
-
-# Discusión en clase
-
-Después de las presentaciones, discutiremos preguntas como:
-
--   ¿Dos Spaces diferentes pueden compartir el mismo tipo de entorno?
--   ¿Es posible saber con certeza qué tipo de agente implementa un Space
-    únicamente observándolo?
--   ¿Qué diferencia existe entre el comportamiento observable de un
-    agente y su implementación interna?
-
 ------------------------------------------------------------------------
 
 # Reto adicional
@@ -100,6 +87,14 @@ R// LocateAnything. Como ya se mostró antes, este Space cumple con estas caract
 
 3.  **Parcialmente observable, estocástico y secuencial.**
 
-Justifique su respuesta.
+R// chatbot-using-gemini
+
+Parcialmente observable: el agente solo conoce los mensajes escritos por el usuario, no toda la información del mundo.
+
+
+Estocástico: ante una misma pregunta puede generar respuestas diferentes dependiendo del proceso de generación o de la información proporcionada por el usuario.
+
+
+Secuencial: cada respuesta depende del historial de la conversación; si eliminas los mensajes anteriores, la respuesta cambia.
 
 ------------------------------------------------------------------------
